@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap');
+*{
+    font-family: Poppins;
+}
+#item:hover{
+    background-color: rgb(255, 217, 0);
+}
+#item{
+    border-radius: 6px;
+    padding:30px 10px;
+}
+#blog{
+    border-radius:7px;
+    padding:10px;
+    border:1px solid gray;
+}
+.my-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+#image{
+    border-radius:50%;
+    height:50px;
+    width:50px;
+}
+#client:hover{
+background-color: rgb(226, 226, 226);
+}
+#client{
+    margin-bottom:10px;
+    padding:7px;
+    border-radius: 7px;
+}
+span{
+    padding-top:7px;
+}
+#header{
+    font-weight: bold;
+}
+#container{
+    padding:10px;
+    border-radius:9px;
+    margin-top:30px;
+}
